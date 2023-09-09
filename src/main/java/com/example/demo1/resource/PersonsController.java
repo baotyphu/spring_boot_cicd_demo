@@ -16,5 +16,9 @@ public class PersonsController {
         return "hello";
     }
 
+    @GetMapping("/test")
+    public String getHello() throws InterruptedException {
+        return "welcome devops";
+    }
 
 }
