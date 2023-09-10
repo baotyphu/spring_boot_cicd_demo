@@ -18,7 +18,7 @@ public class PersonsController {
 
     @GetMapping("/test")
     public String getHello() throws InterruptedException {
-        return "welcome devops training why deployment not work";
+        return "welcome devops 2023";
     }
 
 }
