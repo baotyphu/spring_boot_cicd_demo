@@ -13,7 +13,7 @@ spec:
         app: spring-boot-k8s-1
     spec:
       containers:
-        - name: spring-boot-k8s
+        - name: spring-boot-k8s-1
           image: 88888881/devops-spring-demo-4:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
