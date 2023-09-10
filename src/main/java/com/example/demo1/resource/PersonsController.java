@@ -18,7 +18,7 @@ public class PersonsController {
 
     @GetMapping("/test")
     public String getHello() throws InterruptedException {
-        return "welcome devops training6887773333333";
+        return "welcome devops training why";
     }
 
 }
