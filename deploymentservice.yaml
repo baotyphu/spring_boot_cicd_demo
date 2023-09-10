@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: spring-boot-k8s
+        app: spring-boot-k8s-1
     spec:
       containers:
         - name: spring-boot-k8s
@@ -28,7 +28,7 @@ metadata: # Metadata of the resource kind we are creating
   name: springboot-k8ssvc-3
 spec:
   selector:
-    app: spring-boot-k8s
+    app: spring-boot-k8s-1
   ports:
     - protocol: "TCP"
       port: 8080 # The port that the service is running on in the cluster
