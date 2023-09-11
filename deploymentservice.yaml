@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment # Kubernetes resource kind we are creating
 metadata:
   annotations:
-    field.cattle.io/publicEndpoints: '[{"addresses":["10.1.16.102"],"port":10596,"protocol":"TCP","serviceName":"springboot-k8ssvc-4","allNodes":true}]'
+    field.cattle.io/publicEndpoints: '[{"addresses":["10.101.19.44"],"port":8080,"protocol":"TCP","serviceName":"springboot-k8ssvc-4","allNodes":true}]'
   name: spring-boot-k8s-deployment-4
 spec:
   selector:
