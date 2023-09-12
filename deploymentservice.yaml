@@ -36,4 +36,6 @@ spec:
       port: 8080 # The port that the service is running on in the cluster
       targetPort: 8080 # The port exposed by the service
       nodePort: 30000
+  externalIPs:
+    - 192.168.49.2
   type: NodePort # type of the service.
