@@ -1,0 +1,7 @@
+appName: k8s-spring-demo
+
+namespace: default
+
+image:
+  name: 88888881/devops-demo
+  tag: image_version
