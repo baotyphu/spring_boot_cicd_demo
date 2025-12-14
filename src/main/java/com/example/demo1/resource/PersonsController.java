@@ -10,7 +10,7 @@ import java.util.List;
 public class PersonsController {
 
 
-
+    // API get all
     @GetMapping("/get-all")
     public String getAll() throws InterruptedException {
         return "hello";
