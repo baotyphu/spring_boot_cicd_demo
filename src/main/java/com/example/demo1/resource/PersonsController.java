@@ -13,7 +13,7 @@ public class PersonsController {
     // API get all
     @GetMapping("/get-all")
     public String getAll() throws InterruptedException {
-        return "feature remote";
+        return "feature remote --- 1";
     }
 
     @GetMapping("/test")
